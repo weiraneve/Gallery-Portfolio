@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Add footer dynamically
     const footer = document.createElement('footer');
-    footer.innerHTML = '<p>© 2024 Power | <a href="https://wiki-power.com" target="_blank">Power\'s Wiki</a></p>';
+    footer.innerHTML = '<p>© <a href="http://steveay.com" target="_blank">steveay\'s blog</a></p>';
     document.body.appendChild(footer);
 
     // Add loaded class to images after window load to enable hover effect
