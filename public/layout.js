@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Add footer dynamically
     const footer = document.createElement('footer');
-    footer.innerHTML = '<p>© <a href="http://steveay.com" target="_blank">steveay\'s blog</a></p>';
+    footer.innerHTML = '<p>© <a href="https://steveay.com" target="_blank">steveay\'s blog</a></p>';
     document.body.appendChild(footer);
 
     // Add loaded class to images after window load to enable hover effect
